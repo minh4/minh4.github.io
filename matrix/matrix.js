@@ -1,4 +1,4 @@
-const fontSize = 15;
+const fontSize = 25;
 let width;
 let height;
 let streams = [];
@@ -48,7 +48,7 @@ function draw() {
 }
 
 function writeAuthor() {
-  let title = " Đào Nhật Minh ";
+  let title = " Niên ";
   let size = fontSize * 6;
   fill("white");
   textSize(size);
@@ -57,7 +57,7 @@ function writeAuthor() {
     textSize(size);
   }
   text(title, (width - textWidth(title)) / 2, height / 2 - size * 0.5);
-  title = "Code liền tay, Code nghiền ngay";
+  title = "Niên Ơi?";
   fill(color(83, 255, 26));
   textSize(size * 0.5);
   text(title, (width - textWidth(title)) / 2, height / 2 + size * 0.5);
